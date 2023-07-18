@@ -210,3 +210,14 @@ body {
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
+
+.linkfinal {
+  margin-left: 320px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(10, 146, 224);
+  font-weight: bold;
+}
