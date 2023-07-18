@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="../HomeworkWeek5/src/HomeworkWeek5.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f4c9f02e2b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1" id="div1">
+        <form id="form1">
+          <input
+            class="inputsearch"
+            id="inputsearch"
+            type="search"
+            placeholder="Search your city..."
+          />
+
+          <input class="inputbutton" type="submit" value="🔎" />
+        </form>
+      </div>
+
+      <div class="divtextweather">
+        <div class="divtext1">
+          <dl>
+            <dt class="city" id="cit">Puerto Rico</dt>
+            <dt class="day" id="dia">Wednesday, 12:40 p.m.</dt>
+          </dl>
+        </div>
+      </div>
+
+      <div class="temperaturebig">
+        <span class="numbertemp">
+          <h1 class="numerogrande" id="numerogrande">15</h1>
+        </span>
+        <span class="imagen">
+          <dl>
+            <dt class="imagebig">
+              <img
+                class="imagenbig"
+                src="../HomeworkWeek5/img/Recurso 1.png"
+                alt="#"
+              />
+            </dt>
+            <dt class="temp">°C | °F</dt>
+          </dl>
+        </span>
+      </div>
+
+      <div class="inputcities">
+        <form action="#" class="form2">
+          <input
+            class="buttonbogota"
+            id="buttonbogota"
+            type="submit"
+            value="  Bogotá  "
+          />
+          <input
+            class="buttonparis"
+            id="buttonparis"
+            type="submit"
+            value="    París    "
+          />
+          <input
+            class="buttonnewyork"
+            id="buttonnewyork"
+            type="submit"
+            value="New York"
+          />
+          <input
+            class="buttoncurrent"
+            id="buttoncurrent"
+            type="submit"
+            value="Current"
+          />
+        </form>
+      </div>
+
+      <div class="cuadrodays">
+        <div class="cuadro_monday">
+          <span class="icon_monday">
+            <img class="imgmonday" src="../HomeworkWeek5/img/Recurso 1.png" />
+          </span>
+          <span class="mondaytext">
+            <dl class="listacuadros">
+              <dt class="monday">Monday</dt>
+              <dt class="grades">15 °C | 14 °F</dt>
+            </dl>
+          </span>
+          <span class="season1">Sunny</span>
+        </div>
+
+        <div class="cuadro_tusday">
+          <span class="icon_tusday">
+            <img class="imgtusday" src="../HomeworkWeek5/img/Recurso 1.png" />
+          </span>
+          <span class="tusdaytext">
+            <dl class="listacuadros">
+              <dt class="tusday">Tusday</dt>
+              <dt class="grades">15 °C | 14 °F</dt>
+            </dl>
+          </span>
+          <span class="season2">Sunny</span>
+        </div>
+
+        <div class="cuadro_wednesday">
+          <span class="icon_wednesday">
+            <img
+              class="imgwednesday"
+              src="../HomeworkWeek5/img/Recurso 1.png"
+            />
+          </span>
+          <span class="wednesdaytext">
+            <dl class="listacuadros">
+              <dt class="wednesday">Wednesday</dt>
+              <dt class="grades">15 °C | 14 °F</dt>
+            </dl>
+          </span>
+          <span class="season3">Cloudy</span>
+        </div>
+
+        <div class="cuadro_thursday">
+          <span class="icon_thursday">
+            <img class="imgthursday" src="../HomeworkWeek5/img/Recurso 1.png" />
+          </span>
+          <span class="thursdaytext">
+            <dl class="listacuadros">
+              <dt class="thursday">Thursday</dt>
+              <dt class="grades">15 °C | 14 °F</dt>
+            </dl>
+          </span>
+          <span class="season4">Windy</span>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="src/HomeworkWeek5.js"></script>
+</html>

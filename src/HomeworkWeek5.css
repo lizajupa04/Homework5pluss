@@ -1,0 +1,212 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+
+.container {
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-left: 300px;
+  display: block;
+  border: 1px white solid;
+  box-shadow: 10px 10px 10px rgba(121, 121, 121, 0.281);
+}
+
+.inputsearch {
+  background: rgba(207, 207, 207, 0.233);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px 0px 0px 10px;
+  border-top: 2px solid rgba(255, 255, 255, 0.521);
+  border-left: 2px solid rgba(255, 255, 255, 0.521);
+  border-right: none;
+  border-bottom: none;
+  padding: 10px;
+  box-shadow: 1px 3px 3px rgba(110, 110, 110, 0.219);
+  outline: none;
+}
+
+.inputbutton {
+  background: rgba(207, 207, 207, 0.233);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0px 10px 10px 0px;
+  border-top: 2px solid rgba(255, 255, 255, 0.521);
+  border-left: 2px solid rgba(255, 255, 255, 0.521);
+  border-right: none;
+  border-bottom: none;
+  padding: 9px;
+  box-shadow: 1px 3px 1px rgba(124, 124, 124, 0.267);
+  outline: none;
+}
+
+.div1 {
+  margin-left: 30px;
+}
+
+.divtextweather {
+  background: none;
+  margin-top: 50px;
+  margin-right: 300px;
+  margin-left: 30px;
+  width: 300px;
+  border: none;
+}
+
+.temperaturebig {
+  background: none;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: none;
+  margin-left: 30px;
+  text-align: center;
+  align-items: center;
+  width: 290px;
+  height: 150px;
+  border: none;
+}
+
+.inputcities {
+  background: none;
+  margin-top: 5px;
+  margin-left: 30px;
+  width: 400px;
+  height: 40px;
+  border: none;
+}
+
+.numbertemp {
+  background: none;
+  color: rgb(248, 248, 248);
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+.city {
+  background: none;
+  color: rgb(66, 66, 66);
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.day,
+.clima {
+  background: none;
+  color: rgb(82, 82, 82);
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.imagenbig {
+  width: 80px;
+}
+
+.temp {
+  margin-top: 15px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.imagen {
+  margin-left: 40px;
+}
+
+.cuadrodays {
+  position: relative;
+  top: -416px;
+  left: 430px;
+  width: 350px;
+  border: none;
+}
+
+.cuadro_monday,
+.cuadro_tusday,
+.cuadro_wednesday,
+.cuadro_thursday {
+  background: rgba(207, 207, 207, 0.233);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 2px solid rgba(255, 255, 255, 0.521);
+  border-left: 2px solid rgba(255, 255, 255, 0.521);
+  box-shadow: 3px 7px 6px rgba(124, 124, 124, 0.267);
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgmonday,
+.imgtusday,
+.imgwednesday,
+.imgthursday {
+  margin: auto;
+  width: 50px;
+}
+
+.icon_monday,
+.icon_tusday,
+.icon_wednesday,
+.icon_thursday {
+  background: none;
+  margin-left: 10px;
+}
+
+.monday,
+.tusday,
+.wednesday,
+.thursday {
+  background: none;
+  margin-bottom: 5px;
+}
+
+.season1,
+.season2,
+.season3,
+.season4 {
+  margin-right: 20px;
+  font-size: 18px;
+  color: rgb(92, 92, 92);
+  font-weight: 450;
+}
+
+.buttonbogota,
+.buttonparis,
+.buttonnewyork,
+.buttoncurrent {
+  background: rgba(207, 207, 207, 0.233);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 2px solid rgba(255, 255, 255, 0.521);
+  border-left: 2px solid rgba(255, 255, 255, 0.521);
+  border-bottom: none;
+  border-right: none;
+  box-shadow: 3px 7px 6px rgba(124, 124, 124, 0.267);
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 1px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
