@@ -1,5 +1,6 @@
 body {
   font-family: "Maven Pro", sans-serif;
+  background: rgba(252, 231, 193, 0.582);
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
   padding: 20px;
   border-radius: 20px;
   margin-top: 60px;
-  margin-left: 300px;
+  margin-left: 320px;
   display: block;
   border: 1px white solid;
   box-shadow: 10px 10px 10px rgba(121, 121, 121, 0.281);
@@ -45,6 +46,12 @@ body {
   padding: 9px;
   box-shadow: 1px 3px 1px rgba(124, 124, 124, 0.267);
   outline: none;
+}
+
+.inputbutton:hover {
+  background: rgba(255, 255, 255, 0.233);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .div1 {
@@ -157,6 +164,13 @@ body {
   color: rgb(66, 66, 66);
   font-size: 22px;
   margin-right: 10px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  font-weight: bold;
 }
 
 .fearengei {
@@ -183,7 +197,7 @@ body {
 .buttonparis,
 .buttonnewyork,
 .buttoncurrent {
-  background: rgba(207, 207, 207, 0.233);
+  background: rgba(224, 224, 224, 0.233);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-top: 2px solid rgba(255, 255, 255, 0.521);
@@ -203,7 +217,14 @@ body {
   border-radius: 10px;
   font-size: 12px;
   color: rgb(66, 66, 66);
-  font-weight: 500;
+  font-weight: bold;
+}
+
+.buttonbogota:hover,
+.buttonparis:hover,
+.buttonnewyork:hover,
+.buttoncurrent:hover {
+  background: rgba(255, 255, 255, 0.397);
 }
 
 /*_____________________________________________________*/
@@ -238,6 +259,14 @@ body {
   justify-content: space-between;
   width: 200px;
   height: 45px;
+}
+
+.col-2:hover {
+  background: rgba(255, 255, 255, 0.233);
+  backdrop-filter: blur(10px);
+  border-top: none;
+  border-left: none;
+  box-shadow: 3px 7px 6px rgba(124, 124, 124, 0.267);
 }
 
 .listacuadros {
@@ -279,13 +308,13 @@ body {
 
 /*PARTE DE LINK AL FINAL*/
 
-.linkfinal {
-  margin-left: 320px;
-  margin-top: 10px;
+.piedepagina {
+  margin-top: 20px;
+  margin-left: 350px;
 }
 
-a {
+.linkfinal {
+  color: blue;
   text-decoration: none;
-  color: rgb(10, 146, 224);
-  font-weight: bold;
+  top: -400px;
 }
