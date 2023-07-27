@@ -3,12 +3,8 @@ body {
 }
 
 .container {
-  background: linear-gradient(
-    180.3deg,
-    rgb(221, 221, 221) 5.5%,
-    rgb(110, 136, 161) 90.2%
-  );
-  width: 800px;
+  background: rgb(183, 210, 236) 90.2%;
+  width: 670px;
   height: 400px;
   padding: 20px;
   border-radius: 20px;
@@ -18,6 +14,10 @@ body {
   border: 1px white solid;
   box-shadow: 10px 10px 10px rgba(121, 121, 121, 0.281);
 }
+
+/*_____________________________________________________*/
+
+/*PARTE DE SEARCH*/
 
 .inputsearch {
   background: rgba(207, 207, 207, 0.233);
@@ -51,19 +51,69 @@ body {
   margin-left: 30px;
 }
 
-.divtextweather {
+/*_____________________________________________________*/
+
+/*PARTE DE DESCRIPCIÓN*/
+
+.city {
   background: none;
-  margin-top: 50px;
-  margin-right: 300px;
+  color: rgb(66, 66, 66);
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
   margin-left: 30px;
-  width: 300px;
+  padding: none;
+  width: 350px;
+  height: 60px;
+  display: flex;
+  align-items: center;
   border: none;
 }
+
+.divtextweather {
+  background: none;
+  border: none;
+  margin-left: 30px;
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  padding: none;
+  width: 130px;
+  height: 70px;
+}
+
+.day,
+.tiempoclima {
+  background: none;
+  color: rgb(82, 82, 82);
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.humedadwind {
+  position: relative;
+  bottom: 10px;
+}
+
+.humidity,
+.wind {
+  background: none;
+  position: relative;
+  top: none;
+  left: 200px;
+  bottom: 55px;
+  color: rgb(82, 82, 82);
+  font-size: 12px;
+}
+
+/*_____________________________________________________*/
+
+/*PARTE DE TEMPERATURA NUMERO*/
 
 .temperaturebig {
   background: none;
   display: flex;
-  margin-top: 20px;
+  margin-top: none;
   margin-bottom: 20px;
   margin-right: none;
   margin-left: 30px;
@@ -71,117 +121,62 @@ body {
   align-items: center;
   width: 290px;
   height: 150px;
-  border: none;
-}
-
-.inputcities {
-  background: none;
-  margin-top: 5px;
-  margin-left: 30px;
-  width: 400px;
-  height: 40px;
+  position: relative;
+  bottom: 50px;
   border: none;
 }
 
 .numbertemp {
   background: none;
-  color: rgb(248, 248, 248);
+  color: rgb(66, 66, 66);
   font-size: 70px;
   font-weight: lighter;
 }
 
-.city {
-  background: none;
-  color: rgb(66, 66, 66);
-  font-size: 45px;
-  font-weight: bold;
-}
-
-.day,
-.clima {
-  background: none;
-  color: rgb(82, 82, 82);
-  font-size: 16px;
-  margin-top: 10px;
+.imagen {
+  margin-left: 40px;
+  margin-top: -30px;
 }
 
 .imagenbig {
-  width: 80px;
+  width: 120px;
 }
 
-.temp {
-  margin-top: 15px;
-  font-size: 20px;
-  color: aliceblue;
-}
-
-.imagen {
-  margin-left: 40px;
-}
-
-.cuadrodays {
+.texttemp {
   position: relative;
-  top: -416px;
-  left: 430px;
-  width: 350px;
-  border: none;
-}
-
-.cuadro_monday,
-.cuadro_tusday,
-.cuadro_wednesday,
-.cuadro_thursday {
-  background: rgba(207, 207, 207, 0.233);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-top: 2px solid rgba(255, 255, 255, 0.521);
-  border-left: 2px solid rgba(255, 255, 255, 0.521);
-  box-shadow: 3px 7px 6px rgba(124, 124, 124, 0.267);
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding: 5px;
-  border-radius: 10px;
+  top: 40px;
+  right: 90px;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: space-between;
 }
 
-.imgmonday,
-.imgtusday,
-.imgwednesday,
-.imgthursday {
-  margin: auto;
-  width: 50px;
+.celcious {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+  font-size: 22px;
+  margin-right: 10px;
 }
 
-.icon_monday,
-.icon_tusday,
-.icon_wednesday,
-.icon_thursday {
-  background: none;
+.fearengei {
+  font-size: 22px;
   margin-left: 10px;
 }
 
-.monday,
-.tusday,
-.wednesday,
-.thursday {
-  background: none;
-  margin-bottom: 5px;
-}
+/*_____________________________________________________*/
 
-.season1,
-.season2,
-.season3,
-.season4 {
-  margin-right: 20px;
-  font-size: 18px;
-  color: rgb(92, 92, 92);
-  font-weight: 450;
+/*PARTE DE BOTONES*/
+
+.inputcities {
+  background: none;
+  position: relative;
+  bottom: 60px;
+  margin-top: 5px;
+  margin-left: 30px;
+  width: 400px;
+  height: 40px;
+  border: none;
 }
 
 .buttonbogota,
@@ -207,9 +202,74 @@ body {
   padding-left: 15px;
   border-radius: 10px;
   font-size: 12px;
-  color: rgb(255, 255, 255);
+  color: rgb(66, 66, 66);
   font-weight: 500;
 }
+
+/*_____________________________________________________*/
+
+/*PARTE DE CUADROS*/
+
+.weather_forecast {
+  position: relative;
+  top: -480px;
+  left: 430px;
+  width: 300px;
+  border: none;
+}
+
+.col-2 {
+  background: rgba(207, 207, 207, 0.233);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 2px solid rgba(255, 255, 255, 0.521);
+  border-left: 2px solid rgba(255, 255, 255, 0.521);
+  box-shadow: 3px 7px 6px rgba(124, 124, 124, 0.267);
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.listacuadros {
+  width: 100px;
+  margin-right: 120px;
+  border: none;
+}
+
+.grados {
+  margin-top: 5px;
+}
+
+.icon_forecast {
+  background: none;
+  margin-left: 10px;
+}
+
+.img_forecast {
+  margin: auto;
+  width: 70px;
+}
+
+.monday {
+  background: none;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: rgb(66, 66, 66);
+}
+
+/*_____________________________________________________*/
+
+/*PARTE DE LINK AL FINAL*/
 
 .linkfinal {
   margin-left: 320px;

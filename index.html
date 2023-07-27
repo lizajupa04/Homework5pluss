@@ -4,7 +4,7 @@
     <title>Weather App</title>
     <meta charset="UTF-8" />
 
-    <link rel="stylesheet" href="/src/HomeworkWeek5.css" />
+    <link rel="stylesheet" href="../WEEK 8 PLUS/src/estilo.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,27 +32,42 @@
         </form>
       </div>
 
+      <div class="city">
+        <h1 id="cit">Puerto Rico</h1>
+      </div>
+
       <div class="divtextweather">
-        <div class="divtext1">
-          <dl>
-            <dt class="city" id="cit">Puerto Rico</dt>
-            <dt class="day" id="dia">Wednesday, 12:40 p.m.</dt>
-          </dl>
-        </div>
+        <dl>
+          <dt class="clima">Clima</dt>
+          <dt class="day" id="dia">Wednesday, 12:40 p.m.</dt>
+          <dt class="tiempoclima" id="tiempoclima">Cloudy</dt>
+        </dl>
+      </div>
+
+      <div class="humedadwind">
+        <dl>
+          <dt class="humidity" id="humidity">Humidity: 80%</dt>
+          <dt class="wind" id="wind">Wind: 4 km/h</dt>
+        </dl>
       </div>
 
       <div class="temperaturebig">
-        <span class="numbertemp">
+        <div class="numbertemp">
           <h1 class="numerogrande" id="numerogrande">15</h1>
-        </span>
-        <span class="imagen">
-          <dl>
-            <dt class="imagebig">
-              <img class="imagenbig" src="/img/Recurso 1.png" alt="#" />
-            </dt>
-            <dt class="temp">°C | °F</dt>
-          </dl>
-        </span>
+        </div>
+        <div class="imagen">
+          <img
+            class="imagenbig"
+            id="imagenbig"
+            src="#"
+            alt="#"
+          />
+        </div>
+        <div class="texttemp">
+          <a href="#" class="celcious" id="celcious">°C</a>
+          |
+          <a href="#" class="farengei" id="farengei">°F</a>
+        </div>
       </div>
 
       <div class="inputcities">
@@ -84,60 +99,7 @@
         </form>
       </div>
 
-      <div class="cuadrodays">
-        <div class="cuadro_monday">
-          <span class="icon_monday">
-            <img class="imgmonday" src="/img/Recurso 1.png" />
-          </span>
-          <span class="mondaytext">
-            <dl class="listacuadros">
-              <dt class="monday">Monday</dt>
-              <dt class="grades">15 °C | 14 °F</dt>
-            </dl>
-          </span>
-          <span class="season1">Sunny</span>
-        </div>
-
-        <div class="cuadro_tusday">
-          <span class="icon_tusday">
-            <img class="imgtusday" src="/img/Recurso 1.png" />
-          </span>
-          <span class="tusdaytext">
-            <dl class="listacuadros">
-              <dt class="tusday">Tusday</dt>
-              <dt class="grades">15 °C | 14 °F</dt>
-            </dl>
-          </span>
-          <span class="season2">Sunny</span>
-        </div>
-
-        <div class="cuadro_wednesday">
-          <span class="icon_wednesday">
-            <img class="imgwednesday" src="/img/Recurso 1.png" />
-          </span>
-          <span class="wednesdaytext">
-            <dl class="listacuadros">
-              <dt class="wednesday">Wednesday</dt>
-              <dt class="grades">15 °C | 14 °F</dt>
-            </dl>
-          </span>
-          <span class="season3">Cloudy</span>
-        </div>
-
-        <div class="cuadro_thursday">
-          <span class="icon_thursday">
-            <img class="imgthursday" src="/img/Recurso 1.png" />
-          </span>
-          <span class="thursdaytext">
-            <dl class="listacuadros">
-              <dt class="thursday">Thursday</dt>
-              <dt class="grades">15 °C | 14 °F</dt>
-            </dl>
-          </span>
-          <span class="season4">Windy</span>
-        </div>
-      </div>
-    </div>
+      <div class="weather_forecast" id="forecast"></div>
     <div class="linkfinal">
       <a
         target="_blank"
@@ -148,5 +110,5 @@
     </div>
   </body>
 
-  <script src="src/HomeworkWeek5.js"></script>
+  <script src="../WEEK 8 PLUS/src/app.js"></script>
 </html>
