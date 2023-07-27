@@ -4,8 +4,8 @@ body {
 
 .container {
   background: rgb(183, 210, 236) 90.2%;
-  width: 670px;
-  height: 400px;
+  width: 680px;
+  height: 440px;
   padding: 20px;
   border-radius: 20px;
   margin-top: 60px;
@@ -113,7 +113,7 @@ body {
 .temperaturebig {
   background: none;
   display: flex;
-  margin-top: none;
+  margin-top: 50px;
   margin-bottom: 20px;
   margin-right: none;
   margin-left: 30px;
@@ -172,7 +172,7 @@ body {
   background: none;
   position: relative;
   bottom: 60px;
-  margin-top: 5px;
+  margin-top: 30px;
   margin-left: 30px;
   width: 400px;
   height: 40px;
@@ -212,9 +212,9 @@ body {
 
 .weather_forecast {
   position: relative;
-  top: -480px;
+  top: -520px;
   left: 430px;
-  width: 300px;
+  width: 250px;
   border: none;
 }
 
@@ -237,6 +237,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 200px;
+  height: 45px;
 }
 
 .listacuadros {
@@ -246,7 +247,8 @@ body {
 }
 
 .grados {
-  margin-top: 5px;
+  margin-top: 3px;
+  font-size: 14px;
 }
 
 .icon_forecast {
@@ -256,7 +258,7 @@ body {
 
 .img_forecast {
   margin: auto;
-  width: 70px;
+  width: 40px;
 }
 
 .monday {
@@ -264,7 +266,13 @@ body {
   margin-bottom: 5px;
   margin-left: 10px;
   font-weight: bold;
+  font-size: 14px;
   color: rgb(66, 66, 66);
+}
+
+.grades,
+.grades2 {
+  font-size: 12px;
 }
 
 /*_____________________________________________________*/
